@@ -1,12 +1,12 @@
-a1 = int(input())
-b1 = int(input())
-c1 = int(input())
-a2 = int(input())
-b2 = int(input())
-c2 = int(input())
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+f = int(input())
 
-det = a1 * b2 - a2 * b1
-x = (c1 * b2 - c2 * b1) / det
-y = (a1 * c2 - a2 * c1) / det
+det = a * e - b * d
+x = (e * c - f * b) / det
+y = (a * f - c * d) / det
 
-print("{0:.3f} {1:.3f}".format(x, y))
+print(f"{x:.3f} {y:.3f}")
